@@ -13,6 +13,8 @@ git clone
 
 cd to the project 
 
+install dependencies with npm install
+
 ✔️ Run tests
 
 npx cypress open
