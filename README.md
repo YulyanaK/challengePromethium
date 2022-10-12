@@ -3,24 +3,33 @@ E2E test suite with Cypress
 application under test: https://www.pm61data.com/
 
 🥅 Goals
+
 Complete automation testing challenge: https://docs.google.com/spreadsheets/d/1GsUzyKopV2gPNVqKfI6pk4z-skBEnOTruNbKeKcJoAw/edit#gid=0
 
 
 ⚙️ Setup
+
 git clone 
+
 cd to the project 
+
 ✔️ Run tests
+
 npx cypress open
+
 cypress headless mode (cypress run):
+
 npx cypress run
 
 💡 Details
+
 📁 Tests are located in cypress/e2e folder
 
 📁 Custom commands are located in cypress/support folder 
 
 
 🛠️ Configuration
+
 Config files:
 
 cypress.config.js - Main config file where default behavior of Cypress can be modified. 
